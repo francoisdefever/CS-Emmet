@@ -102,19 +102,60 @@
 
     <!-- Page Content -->
 
-	<a  name="syntax"></a>
+    <a name="syntax"></a>
     <div class="content-section-a">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Syntax</h2>
+
+                    <!-- Child -->
+                    <h4>Child: &gt</h4>
+                    <ul>
+                        <li>
+                            <code>nav&gtul&gtli</code>
+                        </li>
+                        <dd>
+                            &ltnav&gt &ltul&gt &ltli&gt&lt/li&gt &lt/ul&gt &lt/nav&gt
+                        </dd>
+                    </ul>
+
+                    <!-- Sibling -->
+                    <h4>Sibling: +</h4>
+                    <ul>
+                        <li>
+                            <code>div+p+bq</code>
+                        </li>
+                        <dd>&ltdiv&gt &lt/div&gt &ltp&gt&lt/p&gt &ltblockquote&gt &lt/nblockquote&gt</dd>
+                    </ul>
+                    <h4>Climb-up: ^</h4>
+                    <ul>
+                        <li>
+                            <code>div+div&gtp&gtspan+em^bq</code>
+                        </li>
+                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt
+                         &ltblockquote&gt &lt/nblockquote&gt &lt/div&gt</dd>
+                    </ul>
+                    <ul>
+                        <li><code>div+div&gtp&gtspan+em^^bq</code></li>
+                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt &lt/div&gt &ltblockquote&gt &lt/blockquote&gt</dd>
+                    </ul>
+
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+
+                <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                    <!-- Groupoing -->
+                    <h4>Grouping: ()</h4>
+                    <ul>
+                        <li><code>div&gt(header&gtul&gtli*2&gta)+footer&gtp</code></li>
+                        <dd>&ltdiv&gt &ltheader&gt &ltul&gt &ltli&gt&lta href=""&gt &lt/a&gt &lt/li&gt &ltli&gt &lta href=""&gt &lt/a&gt &lt/li&gt &lt/ul&gt &lt/header&gt &ltfooter&gt &ltp&gt &lt/p&gt &lt/footer&gt &lt/div&gt</dd>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                    <h4>Child: &gt</h4>
                 </div>
             </div>
 
@@ -132,8 +173,11 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">3D Device Mockups
+                        <br>by PSDCovers</h2>
+                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop
+                        actions!
+                    </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/dog.png" alt="">
@@ -154,7 +198,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                    <h2 class="section-heading">Google Web Fonts and
+                        <br>Font Awesome Icons</h2>
                     <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -168,7 +213,7 @@
     </div>
     <!-- /.content-section-a -->
 
-	<a  name="contact"></a>
+    <a name="contact"></a>
     <div class="banner">
 
         <div class="container">
