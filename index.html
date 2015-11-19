@@ -77,7 +77,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="intro-message">
                         <h1>Emmet Learning</h1>
                         <h3>Apprenez les raccourcis Emmet et augmentez votre productivité!</h3>
@@ -107,7 +107,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Syntax</h2>
@@ -146,15 +146,27 @@
 
                 </div>
 
-                <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <!-- Groupoing -->
                     <h4>Grouping: ()</h4>
                     <ul>
                         <li><code>div&gt(header&gtul&gtli*2&gta)+footer&gtp</code></li>
                         <dd>&ltdiv&gt &ltheader&gt &ltul&gt &ltli&gt&lta href=""&gt &lt/a&gt &lt/li&gt &ltli&gt &lta href=""&gt &lt/a&gt &lt/li&gt &lt/ul&gt &lt/header&gt &ltfooter&gt &ltp&gt &lt/p&gt &lt/footer&gt &lt/div&gt</dd>
                     </ul>
+                    <!-- Multiplication -->
+                    <h4>Multiplication: *</h4>
+                    <ul>
+                        <li><code>ul&gtli*5</code></li>
+                        <dd>&ltul&gt &ltli&gt&lt/li&gt &ltli&gt&lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &lt/ul&gt</dd>
+                    </ul>
+                    <!-- Item numbering -->
+                    <h4>Item numbering: $</h4>
+                    <ul>
+                        <li><code>ul&gtli.item$*5</code></li>
+                        <dd>&ltul&gt &ltli class="item1"&gt&lt/li&gt &ltli class="item2"&gt&lt/li&gt &ltli class="item3"&gt&lt/li&gt &ltli class="item4"&gt&lt/li&gt &ltli class="item5"&gt&lt/li&gt &lt/ul&gt</dd>
+                    </ul>
                 </div>
-                <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <h4>Child: &gt</h4>
                 </div>
             </div>
