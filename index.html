@@ -100,15 +100,14 @@
     </div>
     <!-- /.intro-header -->
 
-    <!-- Page Content -->
+    <!-- Syntax Content -->
 
     <a name="syntax"></a>
     <div class="content-section-a">
-
         <div class="container">
             <div class="row">
+              <hr class="section-heading-spacer">
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Syntax</h2>
 
@@ -165,9 +164,41 @@
                         <li><code>ul&gtli.item$*5</code></li>
                         <dd>&ltul&gt &ltli class="item1"&gt&lt/li&gt &ltli class="item2"&gt&lt/li&gt &ltli class="item3"&gt&lt/li&gt &ltli class="item4"&gt&lt/li&gt &ltli class="item5"&gt&lt/li&gt &lt/ul&gt</dd>
                     </ul>
+                    <!-- Id et class -->
+                    <h4>ID and CLASS attributes</h4>
+                    <ul>
+                        <li><code>#header</code></li>
+                        <dd>&ltdiv id="header"&gt&lt/div&gt</dd>
+                    </ul>
+                    <ul>
+                        <li><code>.title</code></li>
+                        <dd>&ltdiv class="title"&gt&lt/div&gt</dd>
+                    </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <h4>Child: &gt</h4>
+                    <!-- Text -->
+                    <h4>Text: {}</h4>
+                    <ul>
+                        <li><code>a{Click me}</code></li>
+                        <dd>&lta href=""&gtClick me&lt/a&gt</dd>
+                    </ul>
+                    <ul>
+                        <li><code>p&gt{Click }+a{here}+{ to continue}</code></li>
+                        <dd>    &ltp&gtClick &lta href=""&gthere&lt/a&gt to continue&lt/p&gt</dd>
+                    </ul>
+                    <h4>Implicit tag names</h4>
+                    <ul>
+                        <li><code>.class</code></li>
+                        <dd>&ltdiv class="class"&gt&lt/div&gt</dd>
+                    </ul>
+                    <ul>
+                        <li><code>ul&gt.class</code></li>
+                        <dd>&ltul&gt &ltli class="class"&gt&lt/li&gt &lt/ul&gt</dd>
+                    </ul>
+                    <ul>
+                        <li><code>table&gt.row&gt.col</code></li>
+                        <dd>&lttable&gt &lttr class="row"&gt &lttd class="col"&gt&lt/td&gt &lt/tr&gt &lt/table&gt</dd>
+                    </ul>
                 </div>
             </div>
 
@@ -175,7 +206,7 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-a -->
+    <!-- /Syntax Content-->
 
     <div class="content-section-b">
 
