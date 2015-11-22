@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="#">Commencez Emmet</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -105,10 +105,12 @@
     <div class="content-section-a">
         <div class="container">
             <div class="row">
-              <hr class="section-heading-spacer">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="section-heading col-md-offset-5 col-lg-offset-5 col-sm-offset-5">SYNTAX</h2>
+                </div>
+                <hr class="section-heading-spacer">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Syntax</h2>
 
                     <!-- Child -->
                     <h4>Child: &gt</h4>
@@ -134,11 +136,12 @@
                         <li>
                             <code>div+div&gtp&gtspan+em^bq</code>
                         </li>
-                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt
-                         &ltblockquote&gt &lt/nblockquote&gt &lt/div&gt</dd>
+                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt &ltblockquote&gt &lt/nblockquote&gt &lt/div&gt</dd>
                     </ul>
                     <ul>
-                        <li><code>div+div&gtp&gtspan+em^^bq</code></li>
+                        <li>
+                            <code>div+div&gtp&gtspan+em^^bq</code>
+                        </li>
                         <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt &lt/div&gt &ltblockquote&gt &lt/blockquote&gt</dd>
                     </ul>
 
@@ -148,54 +151,60 @@
                     <!-- Groupoing -->
                     <h4>Grouping: ()</h4>
                     <ul>
-                        <li><code>div&gt(header&gtul&gtli*2&gta)+footer&gtp</code></li>
+                        <li>
+                            <code>div&gt(header&gtul&gtli*2&gta)+footer&gtp</code>
+                        </li>
                         <dd>&ltdiv&gt &ltheader&gt &ltul&gt &ltli&gt&lta href=""&gt &lt/a&gt &lt/li&gt &ltli&gt &lta href=""&gt &lt/a&gt &lt/li&gt &lt/ul&gt &lt/header&gt &ltfooter&gt &ltp&gt &lt/p&gt &lt/footer&gt &lt/div&gt</dd>
                     </ul>
                     <!-- Multiplication -->
                     <h4>Multiplication: *</h4>
                     <ul>
-                        <li><code>ul&gtli*5</code></li>
+                        <li>
+                            <code>ul&gtli*5</code>
+                        </li>
                         <dd>&ltul&gt &ltli&gt&lt/li&gt &ltli&gt&lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &lt/ul&gt</dd>
                     </ul>
                     <!-- Item numbering -->
                     <h4>Item numbering: $</h4>
                     <ul>
-                        <li><code>ul&gtli.item$*5</code></li>
+                        <li>
+                            <code>ul&gtli.item$*5</code>
+                        </li>
                         <dd>&ltul&gt &ltli class="item1"&gt&lt/li&gt &ltli class="item2"&gt&lt/li&gt &ltli class="item3"&gt&lt/li&gt &ltli class="item4"&gt&lt/li&gt &ltli class="item5"&gt&lt/li&gt &lt/ul&gt</dd>
-                    </ul>
-                    <!-- Id et class -->
-                    <h4>ID and CLASS attributes</h4>
-                    <ul>
-                        <li><code>#header</code></li>
-                        <dd>&ltdiv id="header"&gt&lt/div&gt</dd>
-                    </ul>
-                    <ul>
-                        <li><code>.title</code></li>
-                        <dd>&ltdiv class="title"&gt&lt/div&gt</dd>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <!-- Text -->
                     <h4>Text: {}</h4>
                     <ul>
-                        <li><code>a{Click me}</code></li>
+                        <li>
+                            <code>a{Click me}</code>
+                        </li>
                         <dd>&lta href=""&gtClick me&lt/a&gt</dd>
                     </ul>
                     <ul>
-                        <li><code>p&gt{Click }+a{here}+{ to continue}</code></li>
-                        <dd>    &ltp&gtClick &lta href=""&gthere&lt/a&gt to continue&lt/p&gt</dd>
+                        <li>
+                            <code>p&gt{Click }+a{here}+{ to continue}</code>
+                        </li>
+                        <dd> &ltp&gtClick &lta href=""&gthere&lt/a&gt to continue&lt/p&gt</dd>
                     </ul>
                     <h4>Implicit tag names</h4>
                     <ul>
-                        <li><code>.class</code></li>
+                        <li>
+                            <code>.class</code>
+                        </li>
                         <dd>&ltdiv class="class"&gt&lt/div&gt</dd>
                     </ul>
                     <ul>
-                        <li><code>ul&gt.class</code></li>
+                        <li>
+                            <code>ul&gt.class</code>
+                        </li>
                         <dd>&ltul&gt &ltli class="class"&gt&lt/li&gt &lt/ul&gt</dd>
                     </ul>
                     <ul>
-                        <li><code>table&gt.row&gt.col</code></li>
+                        <li>
+                            <code>table&gt.row&gt.col</code>
+                        </li>
                         <dd>&lttable&gt &lttr class="row"&gt &lttd class="col"&gt&lt/td&gt &lt/tr&gt &lt/table&gt</dd>
                     </ul>
                 </div>
@@ -207,76 +216,367 @@
     </div>
     <!-- /Syntax Content-->
 
+
+    <!-- Html Content -->
     <div class="content-section-b">
-      <a name="html"></a>
+        <a name="html"></a>
         <div class="container">
 
             <div class="row">
-              <hr class="section-heading-spacer">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="section-heading col-md-offset-5 col-lg-offset-5 col-sm-offset-5">HTML</h2>
+                </div>
+                <hr class="section-heading-spacer">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Html</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop
-                        actions!
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and
-                        <br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
+                    <!-- First column html -->
+                    <ul>
                         <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <code>!</code>
                         </li>
+                        <dd>
+                            &lt!DOCTYPE html&gt &lthtml lang="fr"&gt &lthead&gt &ltmeta charset="UTF-8"&gt &lttitle&gt &lt/title&gt and all closing marked.
+                        </dd>
                         <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <code>a</code>
                         </li>
+                        <dd>
+                            &lta href=""&gt Content &lt/a&gt
+                        </dd>
                         <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <code>a:link</code>
                         </li>
+                        <dd>
+                            &lta href="http://"&gt Content &lt/a&gt
+                        </dd>
+                        <li>
+                            <code>a:mail</code>
+                        </li>
+                        <dd>
+                            &lta href="mailto:"&gt Content &lt/a&gt
+                        </dd>
+                        <li>
+                            <code>link</code>
+                        </li>
+                        <dd>
+                            &ltink rel="stylesheet" href=""&gt
+                        </dd>
+                        <li>
+                            <code>link:css</code>
+                        </li>
+                        <dd>
+                            &ltlink rel="stylesheet" href=".css"&gt
+                        </dd>
+                    </ul>
+                </div>
+
+                <!-- second column html -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul>
+                        <li>
+                            <code>link:css</code>
+                        </li>
+                        <dd>
+                            &ltlink rel="stylesheet" href=".css"&gt
+                        </dd>
+                        <li>
+                            <code>link:favicon</code>
+                        </li>
+                        <dd>
+                            &ltlink rel="shortcut icon" type="image/x-icon" href=""&gt
+                        </dd>
+                        <li>
+                            <code>meta</code>
+                        </li>
+                        <dd>
+                            &ltmeta&gt
+                        </dd>
+                        <li>
+                            <code>img</code>
+                        </li>
+                        <dd>
+                            &ltimg src="" alt=""&gt
+                        </dd>
+                        <li>
+                            <code>embed</code>
+                        </li>
+                        <dd>
+                            &ltembed src="" type=""&gt
+                        </dd>
+                        <li>
+                            <code>map</code>
+                        </li>
+                        <dd>
+                            &ltmap name=""&gt &lt/map&gt
+                        </dd>
+                        <li>
+                            <code>video</code>
+                        </li>
+                        <dd>
+                            &ltvideo src=""&gt &lt/video&gt
+                        </dd>
+
+                    </ul>
+                </div>
+                <!-- third column html -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul>
+                        <li>
+                            <code>audio</code>
+                        </li>
+                        <dd>
+                            &ltaudio src=""&gt &lt/audio&gt
+                        </dd>
+                        <li>
+                            <code>ul+</code>
+                        </li>
+                        <dd>
+                            &ltul&gt &ltli&gt &lt/li&gt &lt/ul&gt
+                        </dd>
+                        <li>
+                            <code>ol+</code>
+                        </li>
+                        <dd>
+                            &ltol&gt &ltli&gt &lt/li&gt &lt/ol&gt
+                        </dd>
+                        <li>
+                            <code>hdr</code>
+                        </li>
+                        <dd>
+                            &ltheader&gt &lt/header&gt
+                        </dd>
+                        <li>
+                            <code>str</code>
+                        </li>
+                        <dd>
+                            &ltstrong&gt &lt/strong&gt
+                        </dd>
+                        <li>
+                            <code>btn</code>
+                        </li>
+                        <dd>
+                            &ltbutton&gt &lt/button&gt
+                        </dd>
+                        <li>
+                            <code>emb</code>
+                        </li>
+                        <dd>
+                            &ltembed&gt &lt/embed&gt
+                        </dd>
+
                     </ul>
                 </div>
             </div>
+        </div>
 
+    </div>
+    <!-- /.container -->
+
+    <!-- /Htlm Content -->
+
+
+    <!-- CSS Content -->
+    <a name="css"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="section-heading col-md-offset-5 col-lg-offset-5 col-sm-offset-5">CSS</h2>
+                </div>
+                <hr class="section-heading-spacer">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="clearfix"></div>
+                    <!-- First column css -->
+                    <ul>
+                        <h4>Visual Formatting</h4>
+                        <li>
+                            <code>pos:s</code>
+                        </li>
+                        <dd>
+                            position:static;
+                        </dd>
+                        <li>
+                            <code>pos:a</code>
+                        </li>
+                        <dd>
+                            position:absolute;
+                        </dd>
+                        <li>
+                            <code>d:n</code>
+                        </li>
+                        <dd>
+                            display:none;
+                        </dd>
+                        <li>
+                            <code>d:b</code>
+                        </li>
+                        <dd>
+                            display:block;
+                        </dd>
+                        <li>
+                            <code>d:ib</code>
+                        </li>
+                        <dd>
+                            display:inline-block;
+                        </dd>
+                        <li>
+                            <code>ov:h</code>
+                        </li>
+                        <dd>
+                            overflow:hidden;
+                        </dd>
+                        <li>
+                            <code>ov:s</code>
+                        </li>
+                        <dd>
+                            overflow:scroll;
+                        </dd>
+                        <li>
+                            <code>cur:a</code>
+                        </li>
+                        <dd>
+                            cursor:auto;
+                        </dd>
+                    </ul>
+                </div>
+
+                <!-- second column css -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul>
+                        <h4>Margin/Padding</h4>
+                        <li>
+                            <code>m</code>
+                        </li>
+                        <dd>
+                            margin:...;
+                        </dd>
+                        <li>
+                            <code>m:a</code>
+                        </li>
+                        <dd>
+                            margin:auto;
+                        </dd>
+                        <li>
+                            <code>mt:a</code>
+                        </li>
+                        <dd>
+                            margin-top:auto;
+                        </dd>
+                        <li>
+                            <code>d:b</code>
+                        </li>
+                        <dd>
+                            display:block;
+                        </dd>
+                        <li>
+                            <code>p</code>
+                        </li>
+                        <dd>
+                            padding:...;
+                        </dd>
+                        <li>
+                            <code>pt</code>
+                        </li>
+                        <dd>
+                            padding-top:...;
+                        </dd>
+                        <li>
+                            <code>pr</code>
+                        </li>
+                        <dd>
+                            padding-right:...;
+                        </dd>
+                        <li>
+                            <code>pb</code>
+                        </li>
+                        <dd>
+                            padding-bottom:...;
+                        </dd>
+                    </ul>
+                </div>
+                <!-- third column css -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul>
+                        <h4>Font</h4>
+                        <li>
+                            <code>f</code>
+                        </li>
+                        <dd>
+                            font:...;
+                        </dd>
+                        <li>
+                            <code>fw</code>
+                        </li>
+                        <dd>
+                            font-weight:...;
+                        </dd>
+                        <li>
+                            <code>fn</code>
+                        </li>
+                        <dd>
+                            font-style:normal;
+                        </dd>
+                        <li>
+                            <code>f:z</code>
+                        </li>
+                        <dd>
+                            font-size:...;
+                        </dd>
+                        <li>
+                            <code>ff</code>
+                        </li>
+                        <dd>
+                            font-family:...;
+                        </dd>
+                        <li>
+                            <code>fef</code>
+                        </li>
+                        <dd>
+                            font-effect:...;
+                        </dd>
+                        <li>
+                            <code>fef:eg</code>
+                        </li>
+                        <dd>
+                            font-effect:engrave;
+                        </dd>
+                        <li>
+                            <code>fsm</code>
+                        </li>
+                        <dd>
+                            font-smooth:...;
+                        </dd>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- /.container -->
+
+        <!-- /CSS Content -->
+        <a name="contact"></a>
+        <div class="banner">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2> Pourquoi ne pas me suivre?</h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/FD_NPC" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/francoisdefever" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- /.container -->
 
@@ -288,24 +588,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; François DEFEVER 2015. All Rights Reserved</p>
                 </div>
             </div>
         </div>
