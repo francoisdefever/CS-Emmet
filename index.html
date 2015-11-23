@@ -113,13 +113,13 @@
                     <div class="clearfix"></div>
 
                     <!-- Child -->
-                    <h4>Child: &gt</h4>
+                    <h4>Child: &gt;;</h4>
                     <ul>
                         <li>
-                            <code>nav&gtul&gtli</code>
+                            <code>nav&gt;ul&gt;;li</code>
                         </li>
                         <dd>
-                            &ltnav&gt &ltul&gt &ltli&gt&lt/li&gt &lt/ul&gt &lt/nav&gt
+                            &lt;nav&gt; &lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/nav&gt;
                         </dd>
                     </ul>
 
@@ -129,20 +129,20 @@
                         <li>
                             <code>div+p+bq</code>
                         </li>
-                        <dd>&ltdiv&gt &lt/div&gt &ltp&gt&lt/p&gt &ltblockquote&gt &lt/nblockquote&gt</dd>
+                        <dd>&lt;div&gt; &lt;/div&gt; &lt;p&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt;</dd>
                     </ul>
                     <h4>Climb-up: ^</h4>
                     <ul>
                         <li>
-                            <code>div+div&gtp&gtspan+em^bq</code>
+                            <code>div+div&gt;p&gt;span+em^bq</code>
                         </li>
-                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt &ltblockquote&gt &lt/nblockquote&gt &lt/div&gt</dd>
+                        <dd>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt; &lt;/div&gt;</dd>
                     </ul>
                     <ul>
                         <li>
-                            <code>div+div&gtp&gtspan+em^^bq</code>
+                            <code>div+div&gt;p&gt;span+em^^bq</code>
                         </li>
-                        <dd>&ltdiv&gt &lt/div&gt &ltdiv&gt &ltp&gt &ltspan&gt &lt/span&gt &ltem&gt &lt/em&gt &lt/p&gt &lt/div&gt &ltblockquote&gt &lt/blockquote&gt</dd>
+                        <dd>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;/div&gt; &lt;blockquote&gt; &lt;/blockquote&gt;</dd>
                     </ul>
 
                 </div>
@@ -152,25 +152,25 @@
                     <h4>Grouping: ()</h4>
                     <ul>
                         <li>
-                            <code>div&gt(header&gtul&gtli*2&gta)+footer&gtp</code>
+                            <code>div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p</code>
                         </li>
-                        <dd>&ltdiv&gt &ltheader&gt &ltul&gt &ltli&gt&lta href=""&gt &lt/a&gt &lt/li&gt &ltli&gt &lta href=""&gt &lt/a&gt &lt/li&gt &lt/ul&gt &lt/header&gt &ltfooter&gt &ltp&gt &lt/p&gt &lt/footer&gt &lt/div&gt</dd>
+                        <dd>&lt;div&gt; &lt;header&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/header&gt; &lt;footer&gt; &lt;p&gt; &lt;/p&gt; &lt;/footer&gt; &lt;/div&gt;</dd>
                     </ul>
                     <!-- Multiplication -->
                     <h4>Multiplication: *</h4>
                     <ul>
                         <li>
-                            <code>ul&gtli*5</code>
+                            <code>ul&gt;li*5</code>
                         </li>
-                        <dd>&ltul&gt &ltli&gt&lt/li&gt &ltli&gt&lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &ltli&gt &lt/li&gt &lt/ul&gt</dd>
+                        <dd>&lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;/ul&gt;</dd>
                     </ul>
                     <!-- Item numbering -->
                     <h4>Item numbering: $</h4>
                     <ul>
                         <li>
-                            <code>ul&gtli.item$*5</code>
+                            <code>ul&gt;li.item$*5</code>
                         </li>
-                        <dd>&ltul&gt &ltli class="item1"&gt&lt/li&gt &ltli class="item2"&gt&lt/li&gt &ltli class="item3"&gt&lt/li&gt &ltli class="item4"&gt&lt/li&gt &ltli class="item5"&gt&lt/li&gt &lt/ul&gt</dd>
+                        <dd>&lt;ul&gt; &lt;li class="item1"&gt;&lt;/li&gt; &lt;li class="item2"&gt;&lt;/li&gt; &lt;li class="item3"&gt;&lt;/li&gt; &lt;li class="item4"&gt;&lt;/li&gt; &lt;li class="item5"&gt;&lt;/li&gt; &lt;/ul&gt;</dd>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
@@ -180,32 +180,32 @@
                         <li>
                             <code>a{Click me}</code>
                         </li>
-                        <dd>&lta href=""&gtClick me&lt/a&gt</dd>
+                        <dd>&lt;a href=""&gt;Click me&lt;/a&gt;</dd>
                     </ul>
                     <ul>
                         <li>
-                            <code>p&gt{Click }+a{here}+{ to continue}</code>
+                            <code>p&gt;{Click }+a{here}+{ to continue}</code>
                         </li>
-                        <dd> &ltp&gtClick &lta href=""&gthere&lt/a&gt to continue&lt/p&gt</dd>
+                        <dd> &lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to continue&lt;/p&gt;</dd>
                     </ul>
                     <h4>Implicit tag names</h4>
                     <ul>
                         <li>
                             <code>.class</code>
                         </li>
-                        <dd>&ltdiv class="class"&gt&lt/div&gt</dd>
+                        <dd>&lt;div class="class"&gt;&lt;/div&gt;</dd>
                     </ul>
                     <ul>
                         <li>
-                            <code>ul&gt.class</code>
+                            <code>ul&gt;.class</code>
                         </li>
-                        <dd>&ltul&gt &ltli class="class"&gt&lt/li&gt &lt/ul&gt</dd>
+                        <dd>&lt;ul&gt; &lt;li class="class"&gt;&lt;/li&gt; &lt;/ul&gt;</dd>
                     </ul>
                     <ul>
                         <li>
-                            <code>table&gt.row&gt.col</code>
+                            <code>table&gt;.row&gt;.col</code>
                         </li>
-                        <dd>&lttable&gt &lttr class="row"&gt &lttd class="col"&gt&lt/td&gt &lt/tr&gt &lt/table&gt</dd>
+                        <dd>&lt;table&gt; &lt;tr class="row"&gt; &lt;td class="col"&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</dd>
                     </ul>
                 </div>
             </div>
@@ -235,37 +235,37 @@
                             <code>!</code>
                         </li>
                         <dd>
-                            &lt!DOCTYPE html&gt &lthtml lang="fr"&gt &lthead&gt &ltmeta charset="UTF-8"&gt &lttitle&gt &lt/title&gt and all closing marked.
+                            &lt;!DOCTYPE html&gt; &lt;html lang="fr"&gt; &lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;title&gt; &lt;/title&gt; and all closing marked.
                         </dd>
                         <li>
                             <code>a</code>
                         </li>
                         <dd>
-                            &lta href=""&gt Content &lt/a&gt
+                            &lt;a href=""&gt; Content &lt;/a&gt;
                         </dd>
                         <li>
                             <code>a:link</code>
                         </li>
                         <dd>
-                            &lta href="http://"&gt Content &lt/a&gt
+                            &lt;a href="http://"&gt; Content &lt;/a&gt;
                         </dd>
                         <li>
                             <code>a:mail</code>
                         </li>
                         <dd>
-                            &lta href="mailto:"&gt Content &lt/a&gt
+                            &lt;a href="mailto:"&gt; Content &lt;/a&gt;
                         </dd>
                         <li>
                             <code>link</code>
                         </li>
                         <dd>
-                            &ltink rel="stylesheet" href=""&gt
+                            &lt;ink rel="stylesheet" href=""&gt;
                         </dd>
                         <li>
                             <code>link:css</code>
                         </li>
                         <dd>
-                            &ltlink rel="stylesheet" href=".css"&gt
+                            &lt;link rel="stylesheet" href=".css"&gt;
                         </dd>
                     </ul>
                 </div>
@@ -277,43 +277,43 @@
                             <code>link:css</code>
                         </li>
                         <dd>
-                            &ltlink rel="stylesheet" href=".css"&gt
+                            &lt;link rel="stylesheet" href=".css"&gt;
                         </dd>
                         <li>
                             <code>link:favicon</code>
                         </li>
                         <dd>
-                            &ltlink rel="shortcut icon" type="image/x-icon" href=""&gt
+                            &lt;link rel="shortcut icon" type="image/x-icon" href=""&gt;
                         </dd>
                         <li>
                             <code>meta</code>
                         </li>
                         <dd>
-                            &ltmeta&gt
+                            &lt;meta&gt;
                         </dd>
                         <li>
                             <code>img</code>
                         </li>
                         <dd>
-                            &ltimg src="" alt=""&gt
+                            &lt;img src="" alt=""&gt;
                         </dd>
                         <li>
                             <code>embed</code>
                         </li>
                         <dd>
-                            &ltembed src="" type=""&gt
+                            &lt;embed src="" type=""&gt;
                         </dd>
                         <li>
                             <code>map</code>
                         </li>
                         <dd>
-                            &ltmap name=""&gt &lt/map&gt
+                            &lt;map name=""&gt; &lt;/map&gt;
                         </dd>
                         <li>
                             <code>video</code>
                         </li>
                         <dd>
-                            &ltvideo src=""&gt &lt/video&gt
+                            &lt;video src=""&gt; &lt;/video&gt;
                         </dd>
 
                     </ul>
@@ -325,43 +325,43 @@
                             <code>audio</code>
                         </li>
                         <dd>
-                            &ltaudio src=""&gt &lt/audio&gt
+                            &lt;audio src=""&gt; &lt;/audio&gt;
                         </dd>
                         <li>
                             <code>ul+</code>
                         </li>
                         <dd>
-                            &ltul&gt &ltli&gt &lt/li&gt &lt/ul&gt
+                            &lt;ul&gt; &lt;li&gt; &lt;/li&gt; &lt;/ul&gt;
                         </dd>
                         <li>
                             <code>ol+</code>
                         </li>
                         <dd>
-                            &ltol&gt &ltli&gt &lt/li&gt &lt/ol&gt
+                            &lt;ol&gt; &lt;li&gt; &lt;/li&gt; &lt;/ol&gt;
                         </dd>
                         <li>
                             <code>hdr</code>
                         </li>
                         <dd>
-                            &ltheader&gt &lt/header&gt
+                            &lt;header&gt; &lt;/header&gt;
                         </dd>
                         <li>
                             <code>str</code>
                         </li>
                         <dd>
-                            &ltstrong&gt &lt/strong&gt
+                            &lt;strong&gt; &lt;/strong&gt;
                         </dd>
                         <li>
                             <code>btn</code>
                         </li>
                         <dd>
-                            &ltbutton&gt &lt/button&gt
+                            &lt;button&gt; &lt;/button&gt;
                         </dd>
                         <li>
                             <code>emb</code>
                         </li>
                         <dd>
-                            &ltembed&gt &lt/embed&gt
+                            &lt;embed&gt; &lt;/embed&gt;
                         </dd>
 
                     </ul>
