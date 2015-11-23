@@ -118,9 +118,9 @@
                         <li>
                             <code>nav&gt;ul&gt;;li</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;nav&gt; &lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/nav&gt;
-                        </dd>
+                        </p>
                     </ul>
 
                     <!-- Sibling -->
@@ -129,20 +129,20 @@
                         <li>
                             <code>div+p+bq</code>
                         </li>
-                        <dd>&lt;div&gt; &lt;/div&gt; &lt;p&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt;</dd>
+                        <p>&lt;div&gt; &lt;/div&gt; &lt;p&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt;</p>
                     </ul>
                     <h4>Climb-up: ^</h4>
                     <ul>
                         <li>
                             <code>div+div&gt;p&gt;span+em^bq</code>
                         </li>
-                        <dd>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt; &lt;/div&gt;</dd>
+                        <p>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;blockquote&gt; &lt;/nblockquote&gt; &lt;/div&gt;</p>
                     </ul>
                     <ul>
                         <li>
                             <code>div+div&gt;p&gt;span+em^^bq</code>
                         </li>
-                        <dd>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;/div&gt; &lt;blockquote&gt; &lt;/blockquote&gt;</dd>
+                        <p>&lt;div&gt; &lt;/div&gt; &lt;div&gt; &lt;p&gt; &lt;span&gt; &lt;/span&gt; &lt;em&gt; &lt;/em&gt; &lt;/p&gt; &lt;/div&gt; &lt;blockquote&gt; &lt;/blockquote&gt;</p>
                     </ul>
 
                 </div>
@@ -154,7 +154,7 @@
                         <li>
                             <code>div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p</code>
                         </li>
-                        <dd>&lt;div&gt; &lt;header&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/header&gt; &lt;footer&gt; &lt;p&gt; &lt;/p&gt; &lt;/footer&gt; &lt;/div&gt;</dd>
+                        <p>&lt;div&gt; &lt;header&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a href=""&gt; &lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/header&gt; &lt;footer&gt; &lt;p&gt; &lt;/p&gt; &lt;/footer&gt; &lt;/div&gt;</p>
                     </ul>
                     <!-- Multiplication -->
                     <h4>Multiplication: *</h4>
@@ -162,7 +162,7 @@
                         <li>
                             <code>ul&gt;li*5</code>
                         </li>
-                        <dd>&lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;/ul&gt;</dd>
+                        <p>&lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;li&gt; &lt;/li&gt; &lt;/ul&gt;</p>
                     </ul>
                     <!-- Item numbering -->
                     <h4>Item numbering: $</h4>
@@ -170,7 +170,7 @@
                         <li>
                             <code>ul&gt;li.item$*5</code>
                         </li>
-                        <dd>&lt;ul&gt; &lt;li class="item1"&gt;&lt;/li&gt; &lt;li class="item2"&gt;&lt;/li&gt; &lt;li class="item3"&gt;&lt;/li&gt; &lt;li class="item4"&gt;&lt;/li&gt; &lt;li class="item5"&gt;&lt;/li&gt; &lt;/ul&gt;</dd>
+                        <p>&lt;ul&gt; &lt;li class="item1"&gt;&lt;/li&gt; &lt;li class="item2"&gt;&lt;/li&gt; &lt;li class="item3"&gt;&lt;/li&gt; &lt;li class="item4"&gt;&lt;/li&gt; &lt;li class="item5"&gt;&lt;/li&gt; &lt;/ul&gt;</p>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
@@ -180,32 +180,32 @@
                         <li>
                             <code>a{Click me}</code>
                         </li>
-                        <dd>&lt;a href=""&gt;Click me&lt;/a&gt;</dd>
+                        <p>&lt;a href=""&gt;Click me&lt;/a&gt;</p>
                     </ul>
                     <ul>
                         <li>
                             <code>p&gt;{Click }+a{here}+{ to continue}</code>
                         </li>
-                        <dd> &lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to continue&lt;/p&gt;</dd>
+                        <p> &lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to continue&lt;/p&gt;</p>
                     </ul>
                     <h4>Implicit tag names</h4>
                     <ul>
                         <li>
                             <code>.class</code>
                         </li>
-                        <dd>&lt;div class="class"&gt;&lt;/div&gt;</dd>
+                        <p>&lt;div class="class"&gt;&lt;/div&gt;</p>
                     </ul>
                     <ul>
                         <li>
                             <code>ul&gt;.class</code>
                         </li>
-                        <dd>&lt;ul&gt; &lt;li class="class"&gt;&lt;/li&gt; &lt;/ul&gt;</dd>
+                        <p>&lt;ul&gt; &lt;li class="class"&gt;&lt;/li&gt; &lt;/ul&gt;</p>
                     </ul>
                     <ul>
                         <li>
                             <code>table&gt;.row&gt;.col</code>
                         </li>
-                        <dd>&lt;table&gt; &lt;tr class="row"&gt; &lt;td class="col"&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</dd>
+                        <p>&lt;table&gt; &lt;tr class="row"&gt; &lt;td class="col"&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</p>
                     </ul>
                 </div>
             </div>
@@ -234,39 +234,39 @@
                         <li>
                             <code>!</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;!DOCTYPE html&gt; &lt;html lang="fr"&gt; &lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;title&gt; &lt;/title&gt; and all closing marked.
-                        </dd>
+                        </p>
                         <li>
                             <code>a</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;a href=""&gt; Content &lt;/a&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>a:link</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;a href="http://"&gt; Content &lt;/a&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>a:mail</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;a href="mailto:"&gt; Content &lt;/a&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>link</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;ink rel="stylesheet" href=""&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>link:css</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;link rel="stylesheet" href=".css"&gt;
-                        </dd>
+                        </p>
                     </ul>
                 </div>
 
@@ -276,45 +276,45 @@
                         <li>
                             <code>link:css</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;link rel="stylesheet" href=".css"&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>link:favicon</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;link rel="shortcut icon" type="image/x-icon" href=""&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>meta</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;meta&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>img</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;img src="" alt=""&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>embed</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;embed src="" type=""&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>map</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;map name=""&gt; &lt;/map&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>video</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;video src=""&gt; &lt;/video&gt;
-                        </dd>
+                        </p>
 
                     </ul>
                 </div>
@@ -324,45 +324,45 @@
                         <li>
                             <code>audio</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;audio src=""&gt; &lt;/audio&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>ul+</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;ul&gt; &lt;li&gt; &lt;/li&gt; &lt;/ul&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>ol+</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;ol&gt; &lt;li&gt; &lt;/li&gt; &lt;/ol&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>hdr</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;header&gt; &lt;/header&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>str</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;strong&gt; &lt;/strong&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>btn</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;button&gt; &lt;/button&gt;
-                        </dd>
+                        </p>
                         <li>
                             <code>emb</code>
                         </li>
-                        <dd>
+                        <p>
                             &lt;embed&gt; &lt;/embed&gt;
-                        </dd>
+                        </p>
 
                     </ul>
                 </div>
@@ -393,106 +393,106 @@
                         <li>
                             <code>pos:s</code>
                         </li>
-                        <dd>
+                        <p>
                             position:static;
-                        </dd>
+                        </p>
                         <li>
                             <code>pos:a</code>
                         </li>
-                        <dd>
+                        <p>
                             position:absolute;
-                        </dd>
+                        </p>
                         <li>
                             <code>d:n</code>
                         </li>
-                        <dd>
+                        <p>
                             display:none;
-                        </dd>
+                        </p>
                         <li>
                             <code>d:b</code>
                         </li>
-                        <dd>
+                        <p>
                             display:block;
-                        </dd>
+                        </p>
                         <li>
                             <code>d:ib</code>
                         </li>
-                        <dd>
+                        <p>
                             display:inline-block;
-                        </dd>
+                        </p>
                         <li>
                             <code>ov:h</code>
                         </li>
-                        <dd>
-                            overflow:hidden;
-                        </dd>
+                        <p>
+                            overflow:hipen;
+                        </p>
                         <li>
                             <code>ov:s</code>
                         </li>
-                        <dd>
+                        <p>
                             overflow:scroll;
-                        </dd>
+                        </p>
                         <li>
                             <code>cur:a</code>
                         </li>
-                        <dd>
+                        <p>
                             cursor:auto;
-                        </dd>
+                        </p>
                     </ul>
                 </div>
 
                 <!-- second column css -->
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <ul>
-                        <h4>Margin/Padding</h4>
+                        <h4>Margin/Paping</h4>
                         <li>
                             <code>m</code>
                         </li>
-                        <dd>
+                        <p>
                             margin:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>m:a</code>
                         </li>
-                        <dd>
+                        <p>
                             margin:auto;
-                        </dd>
+                        </p>
                         <li>
                             <code>mt:a</code>
                         </li>
-                        <dd>
+                        <p>
                             margin-top:auto;
-                        </dd>
+                        </p>
                         <li>
                             <code>d:b</code>
                         </li>
-                        <dd>
+                        <p>
                             display:block;
-                        </dd>
+                        </p>
                         <li>
                             <code>p</code>
                         </li>
-                        <dd>
-                            padding:...;
-                        </dd>
+                        <p>
+                            paping:...;
+                        </p>
                         <li>
                             <code>pt</code>
                         </li>
-                        <dd>
-                            padding-top:...;
-                        </dd>
+                        <p>
+                            paping-top:...;
+                        </p>
                         <li>
                             <code>pr</code>
                         </li>
-                        <dd>
-                            padding-right:...;
-                        </dd>
+                        <p>
+                            paping-right:...;
+                        </p>
                         <li>
                             <code>pb</code>
                         </li>
-                        <dd>
-                            padding-bottom:...;
-                        </dd>
+                        <p>
+                            paping-bottom:...;
+                        </p>
                     </ul>
                 </div>
                 <!-- third column css -->
@@ -502,51 +502,51 @@
                         <li>
                             <code>f</code>
                         </li>
-                        <dd>
+                        <p>
                             font:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>fw</code>
                         </li>
-                        <dd>
+                        <p>
                             font-weight:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>fn</code>
                         </li>
-                        <dd>
+                        <p>
                             font-style:normal;
-                        </dd>
+                        </p>
                         <li>
                             <code>f:z</code>
                         </li>
-                        <dd>
+                        <p>
                             font-size:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>ff</code>
                         </li>
-                        <dd>
+                        <p>
                             font-family:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>fef</code>
                         </li>
-                        <dd>
+                        <p>
                             font-effect:...;
-                        </dd>
+                        </p>
                         <li>
                             <code>fef:eg</code>
                         </li>
-                        <dd>
+                        <p>
                             font-effect:engrave;
-                        </dd>
+                        </p>
                         <li>
                             <code>fsm</code>
                         </li>
-                        <dd>
+                        <p>
                             font-smooth:...;
-                        </dd>
+                        </p>
                     </ul>
                 </div>
             </div>
