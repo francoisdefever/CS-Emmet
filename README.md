@@ -1,3 +1,7 @@
+#Cheatsheet Emmet
+Les choses sérieuses commencent avec ce cheatsheet sur le plugin Emmet intégrable à l'éditeur de texte Atom.
+Nous verrons ici les raccourcis les plus efficaces pour créer des éléments sur une page, le tout sur base boilerpate et en utilisant le framework Bootstrap. 
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
 
 [Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
